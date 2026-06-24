@@ -1,4 +1,7 @@
-https://research.csiro.au/fdmf/rosella/
+
+### [Project](https://research.csiro.au/fdmf/rosella/) 
+### [Paper - ROSELLA: an Open Computer Vision and Measurement Toolkit for Advanced Manufacturing](https://doi.org/10.1109/DICTA68720.2025.11302498) 
+### [Data](https://data.csiro.au/collection/csiro:69342)
 
 ## Data Pipeline
 
@@ -28,3 +31,19 @@ https://research.csiro.au/fdmf/rosella/
 | [py3dvision_ros](https://github.com/csiro/cvmiam-py3dvision_ros) | ROS2 wrappers for most of py3dvision functionality it injects py3dvision as a submodule. |
 | [kinfu_zivid](https://github.com/csiro/cvmiam-ros2_kinfu_zivid) |	Fuses depth images to do 3D reconstruction with or without noise filtering using Zivid/Kinect's noise model. |
 | [ros2_kinfu_zivid](https://github.com/csiro/cvmiam-ros2_kinfu_zivid) | Ros 2 wrapper for kinfu_zivid package. |
+
+
+## Citation
+
+If you find this project helpful, please consider citing the following paper:
+```
+@inproceedings{nguyen-etal25dicta,
+  author = {C. Nguyen and F. A. Maken and C. Sun and Y. Arzhaeva and S. Muthu and M. Salim and L. Andersson and B. Downing and J. Tong and R. Tsuchida and S. Azizi and L. Hetherton and M. Bolger and S. Howard and L. Petersson and S. Dunstall, },
+  title = {{ROSELLA}: An open computer vision and measurement toolkit for advanced manufacturing},
+  year = {2025},
+  month = {3-5 December},
+  booktitle = {International Conference on Digital Image Computing: Techniques and Applications (DICTA)},
+  address = {Adelaide, Australia},
+  doi = {https://doi.org/10.1109/DICTA68720.2025.11302498} 
+}
+```
